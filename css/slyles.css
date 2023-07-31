@@ -61,6 +61,12 @@ body {
   text-decoration: none;
   color: inherit;
 }
+.address-block .link:hover , 
+.address-block .link:active {
+  color: var(--pressed-state);
+}
+
+
 
 /*main*/
 .hero {
@@ -82,6 +88,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
+  cursor: pointer;
 }
 .button-hero:hover {
   background-color: var(--pressed-state);
@@ -94,6 +101,7 @@ body {
 .filter .button-nav {
   background-color: var(--accent-color);
   color: var(--primary-brand);
+  cursor: pointer;
 }
 
 .filter .button-nav:hover,
@@ -110,9 +118,15 @@ body {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.4px;
+    color: var(--dark-color);
 }
 
-.page-portfolio .index-text{}
+.page-portfolio .index-text{
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--text-color);
+}
 
 /*section 1*/
 .benefits .benefits-list {
