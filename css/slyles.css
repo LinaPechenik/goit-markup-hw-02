@@ -50,12 +50,18 @@ body {
 .page-navigation .link:hover {
   color: var(--pressed-state);
 }
+.page-navigation .link:focus {
+  color: var(--pressed-state);
+}
 .page-navigation .link:active {
   color: var(--pressed-state);
 }
-.address-block ul {
-  list-style-type: none;
+
+.address-block {
   font-style: normal;
+}
+.address-block ul {
+  list-style: none;
 }
 .address-block .link {
   line-height: 1.5;
@@ -197,7 +203,7 @@ body {
   background-color: var(--dark-color);
 }
 .footer .logo {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -211,5 +217,5 @@ body {
 .footer-text {
   color: var(--light-color);
   line-height: 1.5;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.02em;
 }
