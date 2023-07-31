@@ -1,0 +1,170 @@
+:root {
+  --dark-color: #2e2f42; /*--title-color*/
+  --text-color: #434455;
+  --primary-brand: #4d5ae5; /*--logo-color*/
+  --light-color: #f4f4fd; /*--footer-text-color*/
+  --white-background: #ffffff; /*--main-title-color*/
+  --pressed-state: #404bbf; /*--active-color*/
+  --success-color: #31d0aa;
+  --subtle-text: #8e8f99;
+  --accent-color: #e7e9fc;
+  --modal-overplay: #2e2f42;
+  --hero-background: #2e2f42;
+  --modal-background: #fcfcfc;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 24px;
+  letter-spacing: 2%;
+  background-color: var(--white-background);
+  color: var(--text-color);
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  color: var(--dark-color);
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.7;
+  letter-spacing: 0.54px;
+  font-weight: 800;
+}
+
+.web-accent {
+  color: var(--primary-brand);
+}
+
+.page-navigation {
+  list-style-type: none;
+}
+.page-navigation .link {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+  color: var(--dark-color);
+}
+.page-navigation .link:hover {
+  color: var(--pressed-state);
+}
+.page-navigation .link:active {
+  color: var(--pressed-state);
+}
+.address-block ul {
+  list-style-type: none;
+}
+.address-block .link {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+  color: inherit;
+}
+
+/*main*/
+.hero {
+  background-color: var(--dark-color);
+  width: 1440px;
+  height: 600px;
+}
+.hero .main-title {
+  color: var(--white-background);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 1.12px;
+  text-align: center;
+}
+.button-hero {
+  background-color: var(--primary-brand);
+  color: var(--white-background);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+.button-hero:hover {
+  background-color: var(--pressed-state);
+}
+
+/*PORTFOLIO*/
+.filter .filter-list {
+  list-style-type: none;
+}
+.filter .button-nav {
+  background-color: var(--accent-color);
+  color: var(--primary-brand);
+}
+
+.filter .button-nav:hover,
+.filter .button-nav:active {
+  background-color: var(--pressed-state);
+  color: var(--white-background);
+}
+
+.page-portfolio .list-portfolio {
+    list-style-type: none;
+}
+
+.page-portfolio .subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.page-portfolio .index-text{}
+
+/*section 1*/
+.benefits .benefits-list {
+  list-style-type: none;
+}
+.benefits .subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--hero-background);
+}
+.benefits .index-text {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--text-color);
+}
+/*section 2*/
+.actions .actions-list {
+  list-style-type: none;
+}
+.title-text {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  color: var(--hero-background);
+}
+.team-block .team-list {
+  list-style-type: none;
+}
+.team-block .subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--hero-background);
+}
+.team-block .index-text {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--text-color);
+}
+
+/*footer*/
+.footer {
+  background-color: var(--dark-color);
+  width: 1440px;
+  height: 312px;
+}
+footer .logo,
+.footer-text {
+  color: var(--light-color);
+}
