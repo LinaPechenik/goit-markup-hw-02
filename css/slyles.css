@@ -110,7 +110,7 @@ body {
 .filter .filter-list {
   list-style-type: none;
 }
-.filter .button-nav {
+.filter-list .button-nav {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -121,18 +121,18 @@ body {
   cursor: pointer;
 }
 
-.filter .button-nav:hover,
-.filter .button-nav:active,
-.filter .button-nav:focus {
+.filter-list .button-nav:hover,
+.filter-list .button-nav:active,
+.filter-list .button-nav:focus {
   background-color: var(--pressed-state);
   color: var(--white-background);
 }
 
-.page-portfolio .list-portfolio {
+.list-portfolio {
     list-style-type: none;
 }
 
-.page-portfolio .subtitle {
+.list-portfolio .subtitle {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -140,7 +140,7 @@ body {
     color: var(--dark-color);
 }
 
-.page-portfolio .index-text{
+.list-portfolio .index-text{
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--text-color);
